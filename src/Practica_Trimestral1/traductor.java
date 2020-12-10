@@ -2,7 +2,8 @@ package Practica_Trimestral1;
 
 import java.util.Scanner;
 
-public class traductor {
+public class traductor { // un array por variable conteniendo en el mismo orden sus respectivos
+							// equivalentes
 	public static String[] Spanish = { "yo", "tu", "el", "ella", "soy", "eres", "es", "alto", "bajo" };
 	public static String[] English = { "I", "you", "he", "she", "am", "are", "is", "tall", "short" };
 	public static String traduccion = null;

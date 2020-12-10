@@ -1,4 +1,4 @@
-package Practica_Trimestral1;
+package Trimestral1_1;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Hopolapa {
 	static String palabra;
-	static List<Character> vocales = Arrays.asList('a', 'e', 'i', 'o', 'u');
+	static List<Character> vocales = Arrays.asList('a', 'e', 'i', 'o', 'u'); //lo mismo que un array
 	static Character VARIABLE_P = 'p';
 
 	public static void main(String[] args) {
@@ -22,13 +22,13 @@ public class Hopolapa {
 	public static String writeWord(String palabra) {
 		StringBuilder resultado = new StringBuilder();
 
-		for (Character i : palabra.toCharArray()) { //convierte palabra en un array y lo recorre
-			if (vocales.contains(i)) { //el array vocales junto .contains comprueba que el incremento del array palabra coincida
-				resultado.append(i);//vocal y .append significa que adjunta (i) a la variable resultado
-				resultado.append(VARIABLE_P);//añade letra P
-				resultado.append(i);//repite vocal
+		for (Character i : palabra.toCharArray()) { 
+			if (vocales.contains(i)) { 
+				resultado.append(i);
+				resultado.append(VARIABLE_P);
+				resultado.append(i);
 			} else {
-				resultado.append(i);//consonantes
+				resultado.append(i);
 			}
 		}
 
