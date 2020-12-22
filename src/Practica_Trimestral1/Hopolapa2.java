@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Hopolapa2 {
 	static String palabra;
-	static char vocales[] = {'a','e','i','u','o'};
+	static String vocales[] = {'a','e','i','u','o'};
 	static Character VARIABLE_P = 'p';
 
 	public static void main(String[] args) {

@@ -13,7 +13,7 @@ public class traductor2 {
 		System.out.println("What do you want to translate? // ¿Que quieres traducir?");
 		palabra = teclado.nextLine().toLowerCase();
 		teclado.close();
-		String frase[] = palabra.split(" ");
+		String frase[] = palabra.split(" "); //.split va a dividir diferenciando las palabras y guardarlas en un array gracias a los espacios que contenga
 		funTraductor(frase); // llama la funcion
 		if (traduccion == null) {
 			System.out.println("no esta en el diccionario");
