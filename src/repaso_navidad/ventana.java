@@ -77,12 +77,12 @@ public class ventana implements ActionListener, WindowListener{ //con el actionl
 	@Override
 	public void windowDeiconified(WindowEvent arg0) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("me han restaurado");
 	}
 	@Override
 	public void windowIconified(WindowEvent arg0) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("me han minimizado");
 	}
 	@Override
 	public void windowOpened(WindowEvent arg0) {
